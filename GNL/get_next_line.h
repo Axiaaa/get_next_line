@@ -12,13 +12,11 @@
 
 # include <fcntl.h>
 # include <stdio.h>
-# include <stdlib.h>
+# include <stdlib.h> 
 # include <unistd.h>
 
 char	*get_next_line(int fd);
-int		ft_strlen(char *str);
 int		has_newline_inside(const char *s);
-char	*check_line(char *stash);
 void	ft_free_strs(char **str_1, char **str_2, char **str_3);
 char	*ft_parse(char **stash, char **temp);
 char	*ft_strjoin(const char *s1, const char *s2);
